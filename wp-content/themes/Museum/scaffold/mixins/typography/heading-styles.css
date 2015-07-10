@@ -1,0 +1,8 @@
+=hFav($font = "Trebuchet MS", $em = 1em)
+{
+	font-family:$font, sans-serif;
+	font-size:$em;
+	font-weight:bold;
+	letter-spacing:.1em;
+	text-transform:uppercase;
+}

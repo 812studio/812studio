@@ -1,0 +1,69 @@
+/** 
+ *WHITE shadow ABOVE 
+ **/
+ 
+=beveledWhiteTop
+{
+	text-shadow:0 -1px 0 rgba(255,255,255,0.7);
+}
+
+/** 
+ *WHITE shadow BELOW 
+ **/
+ 
+=beveledWhiteBottom
+{
+	text-shadow:0 1px 0 rgba(255,255,255,0.9);
+}
+
+
+/**
+ * BLACK shadow ABOVE
+ * 
+ */
+=beveledBlackTop
+{
+	text-shadow:0 -1px 0 rgba(51,51,51,0.7);
+}
+
+
+/**
+ * BLACK shadow BELOW
+ * 
+ */
+=beveledBlackBottom
+{
+	text-shadow:0 1px 0 rgba(51,51,51,0.7);
+}
+
+
+
+
+/**
+ * CUSTOM BEVEL 1 Top
+ * 
+ */
+=beveledCustomTop($rgb1, $rgb2, $rgb3, $opacity)
+{
+	text-shadow:0 -1px 0 rgba($rgb1, $rgb2, $rgb3, $opacity);
+}
+
+/**
+ * CUSTOM BEVEL 2 Bottom
+ * 
+ */
+=beveledCustomBottom($rgb1, $rgb2, $rgb3, $opacity)
+{
+	text-shadow:0 1px 0 rgba($rgb1, $rgb2, $rgb3, $opacity);
+}
+
+
+/**
+ * CUSTOM BEVEL 3
+ * 
+ */
+=beveledCustomAll($x, $y, $blur, $rgb1, $rgb2, $rgb3, $opacity)
+{
+	text-shadow:$x $y $blur rgba($rgb1, $rgb2, $rgb3, $opacity);
+}
+

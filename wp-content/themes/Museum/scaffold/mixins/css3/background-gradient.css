@@ -1,0 +1,55 @@
+=bg-gradient-moz	{
+	background:-moz-linear-gradient(top, #11032e, #2a0d65);
+	}
+	
+=bg-gradient-webkit	{
+	background:-webkit-gradient(linear, left top, left bottom, from(#11032e), to(#2a0d65));
+	}
+	
+/*
+	Backup for browsers that can't show the gradient
+	------------------------------------------------------------------------------------------------
+    background-color: #1a82f7; 
+    background-image: url(images/linear_bg_2.png); 
+    
+    
+    
+    Degrees - 90% 	Top/Bottom
+    		- 180%	Left/Right
+    
+    
+    Mozilla
+    ------------------------------------------------------------------------------------------------
+    					-moz-linear-gradient( [<point> || <angle>,]? <stop>, <stop> [, <stop>]* )
+    background-image: 	-moz-linear-gradient(100% 100% 90deg, #2F2727, #1a82f7);
+    
+    
+	<point>
+	    A position, interpreted in the same way as background-position or -moz-transform-origin. 
+	    This is used to define the starting point of the gradient. 
+	    It can be specified as a percentage, in pixels, or using "left", "center", or "right" for horizontal and "top", "center", or "bottom" for vertical positioning.
+	    Positions start from the top left corner of the affected element. 
+	    If only one of the horizontal or vertical positioning is specified, the other direction defaults to "center".
+	<angle>
+	    An angle of direction for the gradient. See <angle>.
+	<stop>
+	    This value is comprised of a <color> value, followed by an optional stop position (either a percentage between 0% and 100% or a <length> along the gradient axis).
+	    Rendering of color-stops in CSS gradients follows the same rules as color-stops in SVG gradients. 
+    
+    
+
+    
+    WebKit
+    ------------------------------------------------------------------------------------------------
+    					-webkit-gradient(<type>, <point> [, <radius>]?, <point> [, <radius>]? [, <stop>]*)
+    background-image: 	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));
+    
+    The type of a gradient is either linear or radial.
+
+	A point is a pair of space-separated values. The syntax supports numbers, percentages or the keywords top, bottom, left and right for point values.
+	
+	A radius is a number and may only be specified when the gradient type is radial.
+	
+	A stop is a function, color-stop, that takes two arguments, the stop value (either a percentage or a number between 0 and 1.0), and a color (any valid CSS color). In addition the shorthand functions from and to are supported. These functions only require a color argument and are equivalent to color-stop(0, ...) and color-stop(1.0, É) respectively.
+
+*/

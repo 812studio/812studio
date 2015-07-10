@@ -1,0 +1,62 @@
+=radGradient
+	{
+	background: -moz-radial-gradient(50% 1100px 1deg, circle closest-corner, rgba(51, 51, 51, .5) 0%, $grey2 95%);
+	background: -webkit-gradient(radial, 480 200%, 5, 480 200%, 450, from(rgba(51, 51, 51, .5)), to(rgba(242, 242, 242, .1)));
+	}
+	
+=radGradientBottom
+	{
+	background: -moz-radial-gradient(50% 125% 1deg, circle closest-corner, rgba(51, 51, 51, 0) 0%, $grey2 95%);
+	background: -webkit-gradient(radial, 480 100%, 5, 480 100%, 450, from(rgba(51, 51, 51, .5)), to(rgba(242, 242, 242, .1)));
+	}
+	
+=radGradientFire1
+	{
+	background: -moz-radial-gradient(50% 1200px 1deg, circle closest-corner, rgba(51, 51, 51, .9) 50%, rgba(242, 242, 242, .5) 95%);
+	}
+	
+=radGradientFire2
+	{
+	background: -moz-radial-gradient(50% 145% 1deg, circle closest-corner, rgba(51, 51, 51, .9) 50%, rgba(242, 242, 242, .9) 95%);
+	}
+	
+=radGradientKit1
+	{
+	background: -webkit-gradient(radial, 480 200%, 5, 480 200%, 450, from(rgba(51, 51, 51, .5)), to(rgba(242, 242, 242, .1)));
+	}
+	
+=radGradientKit2
+	{
+	background: -webkit-gradient(radial, 480 110%, 5, 480 110%, 450, from(rgba(51, 51, 51, .5)), to(rgba(242, 242, 242, .1)));
+	}
+	
+=radGradientKit3
+	{
+	background: -webkit-gradient(radial, 480 bottom, 5, 480 bottom, 250, from(rgba(51, 51, 51, .2)), to(rgba(242, 242, 242, .1)));
+	}
+	
+	/*
+	SKETCHING 
+	
+	background: -moz-radial-gradient(50% bottom 1deg, circle closest-corner, rgba(51, 51, 51, .2) 1%, rgba(242, 242, 242, .1) 50%);
+	
+	+radGradientFire;
+	
+	background: -webkit-gradient(radial, 480 200%, 5, 480 300%, 450, from(rgba(51, 51, 51, .5)), to(rgba(242, 242, 242, .5)));
+
+	background: -webkit-gradient(radial, a[x-axis(left-right)] b [y-axis(top-bottom)], c[inner circle radius - spread], x y, z[reverse bg], from($grey2), to($grey6));
+	
+	
+	Gradient at the top
+	background: -webkit-gradient(radial, 480 -325, 480, 480 -325, 80, from(rgba(242, 242, 242, .5)), to(rgba(51, 51, 51, .5)));
+	
+	
+
+	background: -webkit-gradient(linear, 0 0, 0 100%, from($grey1), to($grey3));  
+	background:	-moz-linear-gradient(top, $grey1, $grey3); 
+		
+	-webkit-gradient(type, inner_center, inner_radius, outer_center, outer_radius, / stop...)
+	
+	-moz-radial-gradient([<bg-position> || <angle>,]? [<shape> || <size>,]? <color-stop>, <color-stop>[, <color-stop>]*);
+			
+	*/	
